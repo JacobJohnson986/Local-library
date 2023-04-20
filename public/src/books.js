@@ -6,7 +6,7 @@ function findAuthorById(authors, id) {
   let foundId = authors.find((author) => author.id === id);
   return foundId;
 }
-console.log(foundId)
+
 // Function that takes in two arrays - books & id
 // Need to loop through all of the objects in the book array
 // Need to find if the current id match is true
